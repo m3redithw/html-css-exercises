@@ -30,3 +30,21 @@
 ## CSS Syntax
 A CSS rule consists of a selector and a declaration block.
 <img width="603" alt="css_syntax" src="https://user-images.githubusercontent.com/105242871/186963422-41e3d4d6-99be-47a7-8f8b-2152d396c2fc.png">
+
+- `p` is a selector in CSS (it points to the HTML element you want to style: <p>).
+- `color` is a property, and `red` is the property value
+- `text-align` is a property, and `center` is the property value
+
+## CSS Selectors
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+- Simple selectors (select elements based on name, id, class)
+- Combinator selectors (select elements based on a specific relationship between them)
+- Pseudo-class selectors (select elements based on a certain state)
+- Pseudo-elements selectors (select and style a part of an element)
+- Attribute selectors (select elements based on an attribute or attribute value)
+
+
+
