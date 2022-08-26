@@ -31,7 +31,7 @@
 A CSS rule consists of a selector and a declaration block.
 <img width="603" alt="css_syntax" src="https://user-images.githubusercontent.com/105242871/186963422-41e3d4d6-99be-47a7-8f8b-2152d396c2fc.png">
 
-- `p` is a selector in CSS (it points to the HTML element you want to style: <p>).
+- `p` is a selector in CSS (it points to the HTML element you want to style: `<p>`).
 - `color` is a property, and `red` is the property value
 - `text-align` is a property, and `center` is the property value
 
@@ -49,7 +49,7 @@ We can divide CSS selectors into five categories:
 ### ▪️ The CSS element Selector
 The element selector selects HTML elementsbased on the element name.
 
-Here, all <p> elements on the page will be center-aligned, with a red text color:
+Here, all `<p>` elements on the page will be center-aligned, with a red text color:
 
     p {
       text-align: center;
