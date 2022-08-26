@@ -1,0 +1,6 @@
+/*All <p> elements will be center-aligned, with a red text color:*/
+
+p{
+	color: red;
+	text-align: center;
+}
