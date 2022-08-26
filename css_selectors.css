@@ -1,0 +1,22 @@
+/*The CSS element Selector*/
+p {
+	text-align: center;
+	color: darkred;
+}
+
+/*The CSS id Selector*/
+#para1 {
+	text-align: center;
+	color: orangered;
+}
+
+/*The CSS class Selector*/
+.center {
+	text-align: center;
+	color: indianred;
+}
+
+p.center{
+	text-align: center;
+	color: palevioletred;
+}
