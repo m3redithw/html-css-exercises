@@ -27,3 +27,5 @@
 
 - With an external stylesheet file, you can change the look of an entire website by changing just one file!
 
+## CSS Syntax
+A CSS rule consists of a selector and a declaration block.
