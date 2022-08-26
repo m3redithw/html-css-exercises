@@ -46,5 +46,12 @@ We can divide CSS selectors into five categories:
 - [Pseudo-elements selectors](https://www.w3schools.com/css/css_pseudo_elements.asp) (select and style a part of an element)
 - Attribute selectors(https://www.w3schools.com/css/css_attribute_selectors.asp) (select elements based on an attribute or attribute value)
 
+### ▪️ The CSS element Selector
+The element selector selects HTML elementsbased on the element name.
 
+Here, all <p> elements on the page will be center-aligned, with a red text color:
 
+    p {
+      text-align: center;
+      color: red;
+    }
