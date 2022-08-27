@@ -1,13 +1,13 @@
 # HTML CSS Exercises
 
 ## Introduction
-### What is CSS?
+### ▪️ What is CSS?
 - CSS stands for Cascading Style Sheets
 - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
 - CSS saves a lot of work. It can control the layout of multiple web pages all at once
 - External stylesheets are stored in CSS files
 
-### CSS Solved a Big Problem
+### ▪️ CSS Solved a Big Problem
 - HTML was NEVER intended to contain tags for formatting a web page!
 
 - HTML was created to describe the content of a web page, like:
@@ -22,7 +22,7 @@
 
 - CSS removed the style formatting from the HTML page!
 
-### CSS Savs a Lot of Work!
+### ▪️ CSS Savs a Lot of Work!
 - The style definitions are normally saved in external .css files.
 
 - With an external stylesheet file, you can change the look of an entire website by changing just one file!
@@ -42,7 +42,7 @@ We can divide CSS selectors into five categories:
 
 - Simple selectors (select elements based on name, id, class)
 - [Combinator selectors](https://www.w3schools.com/css/css_combinators.asp) (select elements based on a specific relationship between them)
-- [Pseudo-class selectors](https://www.w3schools.com/css/css_pseudo_classes.asp) (select elements based on a certain state)
+- [Pseudo-class selectors](https://www.w3schools.com/css/css_pseudo_classes.asp) (select elements based on a certain TTstate)
 - [Pseudo-elements selectors](https://www.w3schools.com/css/css_pseudo_elements.asp) (select and style a part of an element)
 - Attribute selectors(https://www.w3schools.com/css/css_attribute_selectors.asp) (select elements based on an attribute or attribute value)
 
@@ -55,3 +55,66 @@ Here, all `<p>` elements on the page will be center-aligned, with a red text col
       text-align: center;
       color: red;
     }
+
+### ▪️ The CSS id Selector
+- The id selector uses the id attribute of an HTML element to select a specific element.
+
+- The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+- To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+The CSS rule below will be applied to the HTML element with id="para1": 
+
+      #para1 {
+        text-align: center;
+        color: red;
+      }
+
+**Note**: An id name cannot start with a number!
+
+### ▪️ The CSS class Selector
+- The class selector selects HTML elements with a specific class attribute.
+
+- To select elements with a specific class, write a period (.) character, followed by the class name.
+
+In this example all HTML elements with class="center" will be red and center-aligned:
+      .center {
+        text-align: center;
+        color: red;
+      }
+
+You can also specify that only specific HTML elements should be affected by a class.
+      p.center {
+        text-align: center;
+        color: red;
+      }
+
+**Note**: A class name cannot start with a number!
+
+### ▪️ The CSS Universal Selector
+The universal selector (*) selects all HTML elements on the page.
+
+The CSS rule below will affect every HTML element on the page: 
+      * {
+        text-align: center;
+        color: blue;
+      }
+
+### ▪️ The CSS Grouping Selector
+The grouping selector selects all the HTML elements with the same style definitions.
+
+Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+      h1 {
+        text-align: center;
+        color: red;
+      }
+
+      h2 {
+        text-align: center;
+        color: red;
+      }
+
+      p {
+        text-align: center;
+        color: red;
+      }
