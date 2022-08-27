@@ -143,3 +143,5 @@ In this example we have grouped the selectors from the code above:
 *`*`* | * | Selects all elements
 *`element`* | p | 	Selects all`<p>` elements
 *`element.element,..`* | div, p | 	Selects all `<div>` elements and all `<p>` elements
+
+## How To Add CSS
