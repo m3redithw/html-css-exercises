@@ -78,12 +78,14 @@ The CSS rule below will be applied to the HTML element with id="para1":
 - To select elements with a specific class, write a period (.) character, followed by the class name.
 
 In this example all HTML elements with class="center" will be red and center-aligned:
+
       .center {
         text-align: center;
         color: red;
       }
 
 You can also specify that only specific HTML elements should be affected by a class.
+
       p.center {
         text-align: center;
         color: red;
