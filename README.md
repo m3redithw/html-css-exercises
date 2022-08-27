@@ -27,6 +27,10 @@
 
 - With an external stylesheet file, you can change the look of an entire website by changing just one file!
 
+[Code Example](css_introduction.css)
+
+***
+
 ## CSS Syntax
 A CSS rule consists of a selector and a declaration block.
 <img width="603" alt="css_syntax" src="https://user-images.githubusercontent.com/105242871/186963422-41e3d4d6-99be-47a7-8f8b-2152d396c2fc.png">
@@ -34,6 +38,10 @@ A CSS rule consists of a selector and a declaration block.
 - `p` is a selector in CSS (it points to the HTML element you want to style: `<p>`).
 - `color` is a property, and `red` is the property value
 - `text-align` is a property, and `center` is the property value
+
+[Code Example](css_syntax.css)
+
+***
 
 ## CSS Selectors
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
@@ -144,6 +152,10 @@ In this example we have grouped the selectors from the code above:
 *`element`* | p | 	Selects all`<p>` elements
 *`element.element,..`* | div, p | 	Selects all `<div>` elements and all `<p>` elements
 
+[Code Example](css_selector.css)
+
+***
+
 ## How To Add CSS
 ### ▪️ 3 Ways to Insert CSS
 - **External CSS**
@@ -161,4 +173,4 @@ In this example we have grouped the selectors from the code above:
 
   - To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 
-
+[Code Example](insert_css.css)
