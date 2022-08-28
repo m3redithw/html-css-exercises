@@ -198,3 +198,4 @@ We can use a combination of HTML and CSS comments.
 ### ▪️ CSS Color Names
 In CSS, a color can be specified by using a predefined color name:
 
+<img width="1190" alt="css_colors" src="https://user-images.githubusercontent.com/105242871/187089559-45722583-6f02-4671-9959-cda42feab5c8.png">
