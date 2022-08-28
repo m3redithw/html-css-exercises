@@ -174,3 +174,27 @@ In this example we have grouped the selectors from the code above:
   - To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 
 [Code Example](insert_css.css)
+
+***
+
+## CSS Comments
+CSS comments are not displayed in the browser, but they can help document your source code.
+
+### ▪️ CSS Comments
+Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers.
+
+A CSS comment is placed inside the `<style>` element, and starts with `/* and ends with */:`
+
+### ▪️ HTML and CSS Comments
+You can add comments to your HTML source by using the `<!--...-->` syntax.
+
+We can use a combination of HTML and CSS comments.
+
+[Code Example](css_comments.css)
+
+## CSS Colors
+### ▪️ CSS Color Names
+In CSS, a color can be specified by using a predefined color name:
+
