@@ -52,7 +52,7 @@ We can divide CSS selectors into five categories:
 - [Combinator selectors](https://www.w3schools.com/css/css_combinators.asp) (select elements based on a specific relationship between them)
 - [Pseudo-class selectors](https://www.w3schools.com/css/css_pseudo_classes.asp) (select elements based on a certain TTstate)
 - [Pseudo-elements selectors](https://www.w3schools.com/css/css_pseudo_elements.asp) (select and style a part of an element)
-- Attribute selectors(https://www.w3schools.com/css/css_attribute_selectors.asp) (select elements based on an attribute or attribute value)
+- [Attribute selectors](https://www.w3schools.com/css/css_attribute_selectors.asp) (select elements based on an attribute or attribute value)
 
 ### ▪️ The CSS element Selector
 The element selector selects HTML elementsbased on the element name.
